@@ -30,14 +30,14 @@ WEIGHT_DECAY = 0
 
 Actor and Critic network models were defined in maddpg_model.py.
 
-The Actor networks utilised two fully connected layers with 256 and 256 units with relu activation and tanh activation for the action space. 
-The Critic networks utilised two fully connected layers with 256 and 256 units with relu activation. 
+The Actor networks utilised two fully connected layers with 256 and 128 units with relu activation and tanh activation for the action space. 
+The Critic networks utilised two fully connected layers with 256 and 128 units with relu activation. 
 
 
 
 ## Performance of the agent
 
-![Alt text](https://github.com/Quertier/p3_collab-compet/blob/master/p3_maddpg.PNG)
+![Alt text](https://github.com/ShamCondor/Collaboration-and-Competition-fo-tennis/blob/master/maddpg_result.png)
 
 
 ## Future Improvements
